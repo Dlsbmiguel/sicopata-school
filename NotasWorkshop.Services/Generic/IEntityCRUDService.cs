@@ -1,7 +1,7 @@
-﻿using NotasWorkshop.Core.BaseModel.BaseEntity;
-using NotasWorkshop.Core.BaseModel.BaseEntityDto;
+﻿using SicopataSchool.Core.BaseModel.BaseEntity;
+using SicopataSchool.Core.BaseModel.BaseEntityDto;
 
-namespace NotasWorkshop.Services.Generic
+namespace SicopataSchool.Services.Generic
 {
     public interface IEntityCRUDService<TEntity, TEntityDto> where TEntity : class, IBaseEntity
        where TEntityDto : class, IBaseEntityDto

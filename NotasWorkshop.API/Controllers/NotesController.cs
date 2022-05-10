@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
-using NotasWorkshop.Api.Controllers;
-using NotasWorkshop.Bl.Dtos;
-using NotasWorkshop.Model.Entities;
-using NotasWorkshop.Services.Services;
+using SicopataSchool.Api.Controllers;
+using SicopataSchool.Bl.Dtos;
+using SicopataSchool.Model.Entities;
+using SicopataSchool.Services.Services;
 
-namespace NotasWorkshop.API.Controllers
+namespace SicopataSchool.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

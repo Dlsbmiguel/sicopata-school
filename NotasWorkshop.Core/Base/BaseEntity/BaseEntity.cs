@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NotasWorkshop.Core.BaseModel.BaseEntity
+namespace SicopataSchool.Core.BaseModel.BaseEntity
 {
     public class BaseEntity : Base.Base, IBaseEntity
     {

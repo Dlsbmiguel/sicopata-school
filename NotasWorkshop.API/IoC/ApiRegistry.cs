@@ -1,6 +1,6 @@
-﻿using NotasWorkshop.Core.Models;
+﻿using SicopataSchool.Core.Models;
 
-namespace NotasWorkshop.API.IoC
+namespace SicopataSchool.API.IoC
 {
     public static class ApiRegistry
     {

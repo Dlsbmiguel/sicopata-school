@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NotasWorkshop.Core.Constants
+namespace SicopataSchool.Core.Constants
 {
     public class Endpoint
     {

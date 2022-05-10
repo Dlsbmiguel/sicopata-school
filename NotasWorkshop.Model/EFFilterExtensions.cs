@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NotasWorkshop.Core.BaseModel.BaseEntity;
+using SicopataSchool.Core.BaseModel.BaseEntity;
 using System.Reflection;
 
-namespace NotasWorkshop.Model.Extensions
+namespace SicopataSchool.Model.Extensions
 {
     public static class EFFilterExtensions
     {

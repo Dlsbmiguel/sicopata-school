@@ -1,11 +1,11 @@
-﻿using NotasWorkshop.Core.BaseModel.BaseEntity;
-using NotasWorkshop.Model.Repositories;
+﻿using SicopataSchool.Core.BaseModel.BaseEntity;
+using SicopataSchool.Model.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NotasWorkshop.Model.UnitOfWorks
+namespace SicopataSchool.Model.UnitOfWorks
 {
     public interface IUnitOfWork : IDisposable
     {

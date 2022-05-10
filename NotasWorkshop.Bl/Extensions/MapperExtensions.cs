@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using NotasWorkshop.Core.BaseModel.BaseEntityDto;
+using SicopataSchool.Core.BaseModel.BaseEntityDto;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace NotasWorkshop.Bl.Extensions
+namespace SicopataSchool.Bl.Extensions
 {
     public static class MapperExtensions
     {

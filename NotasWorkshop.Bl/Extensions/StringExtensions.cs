@@ -1,4 +1,4 @@
-﻿namespace NotasWorkshop.Bl.Extensions
+﻿namespace SicopataSchool.Bl.Extensions
 {
     public static class StringExtensions
     {

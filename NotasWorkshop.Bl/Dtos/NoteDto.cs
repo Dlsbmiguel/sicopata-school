@@ -1,10 +1,16 @@
-﻿using NotasWorkshop.Core.BaseModel.BaseEntityDto;
+﻿using SicopataSchool.Core.BaseModel.BaseEntityDto;
+using System.Text.Json.Serialization;
 
-namespace NotasWorkshop.Bl.Dtos
+namespace SicopataSchool.Bl.Dtos
 {
     public class NoteDto : BaseEntityDto
     {
-        public string Title { get; set; }
-        public string Content { get; set; }
+        [JsonIgnore]
+        public override int? Id { get => base.Id; set => base.Id = value; }
+        public string? Title { get; set; }
+        public string? Content { get; set; }
+        public string? ImageUrl { get; set; }
+        public bool IsPrivate { get; set; }
+
     }
 }

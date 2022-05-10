@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace NotasWorkshop.Core.IoC
+namespace SicopataSchool.Core.IoC
 {
     public static class CoreRegistry
     {

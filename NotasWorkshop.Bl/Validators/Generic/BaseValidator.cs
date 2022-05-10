@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NotasWorkshop.Bl.Validators.Generic
+namespace SicopataSchool.Bl.Validators.Generic
 {
     public abstract class BaseValidator<T> : AbstractValidator<T>, IBaseValidator
     {

@@ -1,23 +1,23 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using NotasWorkshop.Core.BaseModel.BaseEntity;
-using NotasWorkshop.Core.BaseModel.BaseEntityDto;
-using NotasWorkshop.Model.Contexts.NotasWorkshop;
-using NotasWorkshop.Model.Repositories;
-using NotasWorkshop.Model.UnitOfWorks;
+using SicopataSchool.Core.BaseModel.BaseEntity;
+using SicopataSchool.Core.BaseModel.BaseEntityDto;
+using SicopataSchool.Model.Contexts.SicopataSchool;
+using SicopataSchool.Model.Repositories;
+using SicopataSchool.Model.UnitOfWorks;
 
-namespace NotasWorkshop.Services.Generic
+namespace SicopataSchool.Services.Generic
 {
     public class EntityCRUDService<TEntity, TEntityDto> : IEntityCRUDService<TEntity, TEntityDto> where TEntity : class, IBaseEntity
       where TEntityDto : class, IBaseEntityDto
     {
 
         public IMapper _mapper { get; set; }
-        public IUnitOfWork<INotasWorkshopDbContext> _uow { get; set; }
+        public IUnitOfWork<ISicopataSchoolDbContext> _uow { get; set; }
         public readonly IRepository<TEntity> _repository;
 
-        public EntityCRUDService(IMapper mapper, IUnitOfWork<INotasWorkshopDbContext> uow)
+        public EntityCRUDService(IMapper mapper, IUnitOfWork<ISicopataSchoolDbContext> uow)
         {
             _mapper = mapper;
             _uow = uow;

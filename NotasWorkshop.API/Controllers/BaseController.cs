@@ -2,12 +2,12 @@
 using FluentValidation;
 //using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Mvc;
-using NotasWorkshop.Core.BaseModel.BaseEntity;
-using NotasWorkshop.Core.BaseModel.BaseEntityDto;
-using NotasWorkshop.Services.Generic;
+using SicopataSchool.Core.BaseModel.BaseEntity;
+using SicopataSchool.Core.BaseModel.BaseEntityDto;
+using SicopataSchool.Services.Generic;
 using System.Net;
 
-namespace NotasWorkshop.Api.Controllers
+namespace SicopataSchool.Api.Controllers
 {
     [Produces("application/json")]
     [Route("api/[controller]")]

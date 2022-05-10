@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace NotasWorkshop.Bl.Validators
+namespace SicopataSchool.Bl.Validators
 {
     public static class FluentExtensions
     {

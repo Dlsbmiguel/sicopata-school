@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace NotasWorkshop.Bl.Extensions
+namespace SicopataSchool.Bl.Extensions
 {
     public static class AutoMapperCompatibilityExtensions
     {

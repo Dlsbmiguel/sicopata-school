@@ -1,0 +1,17 @@
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\bin\Debug\net6.0\SicopataSchool.Model.deps.json
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\bin\Debug\net6.0\SicopataSchool.Model.runtimeconfig.json
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\bin\Debug\net6.0\SicopataSchool.Model.dll
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\bin\Debug\net6.0\SicopataSchool.Model.pdb
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\bin\Debug\net6.0\SicopataSchool.Core.dll
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\bin\Debug\net6.0\SicopataSchool.Core.pdb
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.csproj.AssemblyReference.cache
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.AssemblyInfoInputs.cache
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.AssemblyInfo.cs
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.csproj.CoreCompileInputs.cache
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.csproj.CopyComplete
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.dll
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\refint\SicopataSchool.Model.dll
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.pdb
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\SicopataSchool.Model.genruntimeconfig.cache
+C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Model\obj\Debug\net6.0\ref\SicopataSchool.Model.dll

@@ -1,18 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NotasWorkshop.Core.BaseModel.BaseEntity;
-using NotasWorkshop.Model.Contexts.NotasWorkshop;
-using NotasWorkshop.Model.UnitOfWorks;
+using SicopataSchool.Core.BaseModel.BaseEntity;
+using SicopataSchool.Model.Contexts.SicopataSchool;
+using SicopataSchool.Model.UnitOfWorks;
 using System.Linq.Expressions;
 
-namespace NotasWorkshop.Model.Repositories
+namespace SicopataSchool.Model.Repositories
 {
     public class BaseRepository<T> : IRepository<T> where T : class, IBaseEntity
     {
-        public readonly IUnitOfWork<INotasWorkshopDbContext> _uow;
-        public readonly INotasWorkshopDbContext _context;
+        public readonly IUnitOfWork<ISicopataSchoolDbContext> _uow;
+        public readonly ISicopataSchoolDbContext _context;
         public readonly DbSet<T> _dbSet;
 
-        public BaseRepository(IUnitOfWork<INotasWorkshopDbContext> uow)
+        public BaseRepository(IUnitOfWork<ISicopataSchoolDbContext> uow)
         {
             _uow = uow;
             _context = _uow.context;

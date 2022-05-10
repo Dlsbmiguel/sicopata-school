@@ -1,9 +1,9 @@
-﻿using NotasWorkshop.Core.BaseModel.Base;
+﻿using SicopataSchool.Core.BaseModel.Base;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NotasWorkshop.Core.BaseModel.BaseEntity
+namespace SicopataSchool.Core.BaseModel.BaseEntity
 {
     public interface IBaseEntity : IBase
     {

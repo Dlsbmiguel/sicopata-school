@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using NotasWorkshop.Bl.Dtos;
-using NotasWorkshop.Bl.Extensions;
-using NotasWorkshop.Model.Entities;
+using SicopataSchool.Bl.Dtos;
+using SicopataSchool.Bl.Extensions;
+using SicopataSchool.Model.Entities;
 
-namespace NotasWorkshop.Bl.Mappings
+namespace SicopataSchool.Bl.Mappings
 {
     public class NoteProfile : Profile
     {

@@ -1,19 +1,19 @@
-﻿using NotasWorkshop.Core.BaseModel.BaseEntity;
-using NotasWorkshop.Model.Contexts.NotasWorkshop;
-using NotasWorkshop.Model.Repositories;
+﻿using SicopataSchool.Core.BaseModel.BaseEntity;
+using SicopataSchool.Model.Contexts.SicopataSchool;
+using SicopataSchool.Model.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NotasWorkshop.Model.UnitOfWorks.NotasWorkshop
+namespace SicopataSchool.Model.UnitOfWorks.SicopataSchool
 {
-    public class NotasWorkshopUnitOfWork : IUnitOfWork<INotasWorkshopDbContext>
+    public class SicopataSchoolUnitOfWork : IUnitOfWork<ISicopataSchoolDbContext>
     {
-        public INotasWorkshopDbContext context { get; set; }
+        public ISicopataSchoolDbContext context { get; set; }
         public readonly IServiceProvider _serviceProvider;
 
-        public NotasWorkshopUnitOfWork(IServiceProvider serviceProvider, INotasWorkshopDbContext context)
+        public SicopataSchoolUnitOfWork(IServiceProvider serviceProvider, ISicopataSchoolDbContext context)
         {
             _serviceProvider = serviceProvider;
             this.context = context;

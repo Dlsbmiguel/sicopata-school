@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using NotasWorkshop.Core.BaseModel.BaseEntity;
-using NotasWorkshop.Core.Models;
+using SicopataSchool.Core.BaseModel.BaseEntity;
+using SicopataSchool.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Options;
 
-namespace NotasWorkshop.Model.Contexts
+namespace SicopataSchool.Model.Contexts
 {
     public abstract class BaseDbContext : DbContext
     {

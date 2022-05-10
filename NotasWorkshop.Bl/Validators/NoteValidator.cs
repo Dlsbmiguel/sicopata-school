@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using NotasWorkshop.Bl.Dtos;
-using NotasWorkshop.Bl.Validators.Generic;
+using SicopataSchool.Bl.Dtos;
+using SicopataSchool.Bl.Validators.Generic;
 
-namespace NotasWorkshop.Bl.Validators
+namespace SicopataSchool.Bl.Validators
 {
     public class NoteValidator : BaseValidator<NoteDto>
     {

@@ -1,11 +1,12 @@
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
-using NotasWorkshop.API.IoC;
-using NotasWorkshop.Bl.IoC;
-using NotasWorkshop.Core.IoC;
-using NotasWorkshop.Model.Contexts.NotasWorkshop;
-using NotasWorkshop.Model.IoC;
-using NotasWorkshop.Services.IoC;
+using Microsoft.OpenApi.Models;
+using SicopataSchool.API.IoC;
+using SicopataSchool.Bl.IoC;
+using SicopataSchool.Core.IoC;
+using SicopataSchool.Model.Contexts.SicopataSchool;
+using SicopataSchool.Model.IoC;
+using SicopataSchool.Services.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +18,7 @@ builder.Services.AddModelRegistry();
 builder.Services.AddCoreRegistry();
 
 string myAppDbContextConnection = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<NotasWorkshopDbContext>(op => op.UseSqlServer(myAppDbContextConnection),
+builder.Services.AddDbContext<SicopataSchoolDbContext>(op => op.UseSqlServer(myAppDbContextConnection),
     ServiceLifetime.Transient);
 
 // Add services to the container.
@@ -28,7 +29,41 @@ builder.Services.AddControllers(options =>
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(
+    swagger =>
+    {
+        //This is to generate the Default UI of Swagger Documentation  
+        swagger.SwaggerDoc("v1", new OpenApiInfo
+        {
+            Version = "v1",
+            Title = "JWT Token Authentication API",
+            Description = "Sicopata School Auth"
+        });
+        // To Enable authorization using Swagger (JWT)  
+        swagger.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+        {
+            Name = "Authorization",
+            Type = SecuritySchemeType.ApiKey,
+            Scheme = "Bearer",
+            BearerFormat = "JWT",
+            In = ParameterLocation.Header,
+            Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 12345abcdef\"",
+        });
+        swagger.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                          new OpenApiSecurityScheme
+                            {
+                                Reference = new OpenApiReference
+                                {
+                                    Type = ReferenceType.SecurityScheme,
+                                    Id = "Bearer"
+                                }
+                            },
+                            new string[] {}
+                    }
+                });
+    });
 
 var app = builder.Build();
 

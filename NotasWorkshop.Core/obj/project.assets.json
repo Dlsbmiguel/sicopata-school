@@ -67,24 +67,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sx-G5-Laptop\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\miguel.santos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sx-G5-Laptop\\Projects\\Workshop\\FirstPractice\\NotasWorkshop\\NotasWorkshop.Core\\NotasWorkshop.Core.csproj",
-      "projectName": "NotasWorkshop.Core",
-      "projectPath": "C:\\Users\\Sx-G5-Laptop\\Projects\\Workshop\\FirstPractice\\NotasWorkshop\\NotasWorkshop.Core\\NotasWorkshop.Core.csproj",
-      "packagesPath": "C:\\Users\\Sx-G5-Laptop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sx-G5-Laptop\\Projects\\Workshop\\FirstPractice\\NotasWorkshop\\NotasWorkshop.Core\\obj\\",
+      "projectUniqueName": "C:\\Users\\miguel.santos\\Source\\Repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
+      "projectName": "SicopataSchool.Core",
+      "projectPath": "C:\\Users\\miguel.santos\\Source\\Repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
+      "packagesPath": "C:\\Users\\miguel.santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\miguel.santos\\Source\\Repos\\sicopata-school\\NotasWorkshop.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sx-G5-Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\miguel.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -130,7 +125,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

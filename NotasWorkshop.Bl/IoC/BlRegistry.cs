@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace NotasWorkshop.Bl.IoC
+namespace SicopataSchool.Bl.IoC
 {
     public static class BlRegistry
     {

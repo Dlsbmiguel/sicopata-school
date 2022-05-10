@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using NotasWorkshop.Bl.Dtos;
-using NotasWorkshop.Model.Contexts.NotasWorkshop;
-using NotasWorkshop.Model.Entities;
-using NotasWorkshop.Model.UnitOfWorks;
-using NotasWorkshop.Services.Generic;
+using SicopataSchool.Bl.Dtos;
+using SicopataSchool.Model.Contexts.SicopataSchool;
+using SicopataSchool.Model.Entities;
+using SicopataSchool.Model.UnitOfWorks;
+using SicopataSchool.Services.Generic;
 
-namespace NotasWorkshop.Services.Services
+namespace SicopataSchool.Services.Services
 {
     public interface INoteService : IEntityCRUDService<Note, NoteDto>
     {
@@ -14,9 +14,10 @@ namespace NotasWorkshop.Services.Services
 
     public class NoteService : EntityCRUDService<Note, NoteDto>, INoteService
     {
-        public NoteService(IMapper mapper, IUnitOfWork<INotasWorkshopDbContext> uow) 
+        public NoteService(IMapper mapper, IUnitOfWork<ISicopataSchoolDbContext> uow) 
             : base(mapper, uow)
         {
+            
         }
     }
 }

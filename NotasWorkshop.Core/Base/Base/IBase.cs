@@ -1,4 +1,4 @@
-﻿namespace NotasWorkshop.Core.BaseModel.Base
+﻿namespace SicopataSchool.Core.BaseModel.Base
 {
     public interface IBase
     {

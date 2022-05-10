@@ -2,7 +2,7 @@
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
-namespace NotasWorkshop.Api.Controllers
+namespace SicopataSchool.Api.Controllers
 {
 
     public interface IODataController

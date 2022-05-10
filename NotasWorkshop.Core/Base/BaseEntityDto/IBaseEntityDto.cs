@@ -1,9 +1,9 @@
-﻿using NotasWorkshop.Core.BaseModel.BaseDto;
+﻿using SicopataSchool.Core.BaseModel.BaseDto;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NotasWorkshop.Core.BaseModel.BaseEntityDto
+namespace SicopataSchool.Core.BaseModel.BaseEntityDto
 {
     public interface IBaseEntityDto : IBaseDto
     {

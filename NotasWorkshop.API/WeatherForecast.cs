@@ -1,4 +1,4 @@
-namespace NotasWorkshop.API
+namespace SicopataSchool.API
 {
     public class WeatherForecast
     {

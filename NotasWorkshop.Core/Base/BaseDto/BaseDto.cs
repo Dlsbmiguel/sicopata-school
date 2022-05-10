@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NotasWorkshop.Core.BaseModel.BaseDto
+namespace SicopataSchool.Core.BaseModel.BaseDto
 {
     public class BaseDto : IBaseDto
     {

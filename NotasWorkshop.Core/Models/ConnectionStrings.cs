@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NotasWorkshop.Core.Models
+namespace SicopataSchool.Core.Models
 {
     public class ConnectionStrings
     {
