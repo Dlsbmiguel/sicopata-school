@@ -13,9 +13,9 @@ namespace SicopataSchool.Services.Generic
       where TEntityDto : class, IBaseEntityDto
     {
 
-        public IMapper _mapper { get; set; }
-        public IUnitOfWork<ISicopataSchoolDbContext> _uow { get; set; }
-        public readonly IRepository<TEntity> _repository;
+        protected IMapper _mapper { get; set; }
+        protected IUnitOfWork<ISicopataSchoolDbContext> _uow { get; set; }
+        protected readonly IRepository<TEntity> _repository;
 
         public EntityCRUDService(IMapper mapper, IUnitOfWork<ISicopataSchoolDbContext> uow)
         {

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SicopataSchool.Api.Controllers;
 using SicopataSchool.Bl.Dtos;
@@ -8,6 +9,7 @@ using SicopataSchool.Services.Services;
 
 namespace SicopataSchool.API.Controllers
 {
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class StudentsController : BaseController<Student, StudentDto>

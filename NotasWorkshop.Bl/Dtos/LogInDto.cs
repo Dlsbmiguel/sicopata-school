@@ -8,6 +8,6 @@ namespace SicopataSchool.Bl.Dtos
 {
     public class LogInDto
     {
-        public int EnrollmentCode { get; set; }
+        public string? EnrollmentCode { get; set; }
     }
 }

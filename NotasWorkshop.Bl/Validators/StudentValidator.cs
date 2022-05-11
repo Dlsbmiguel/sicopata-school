@@ -12,7 +12,10 @@ namespace SicopataSchool.Bl.Validators
     {
         public StudentValidator()
         {
-            
+            RuleFor(x => x.EnrollmentCode)
+                .NotEmpty().NotNull()
+                .MaximumLength(15)
+                .WithMessage("El campo titulo debe contener 15 caracteres");
         }
     }
 }

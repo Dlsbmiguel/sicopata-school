@@ -19,7 +19,7 @@ namespace SicopataSchool.Services.Services
 {
     public interface IJWTManagerService
     {
-        Task<JWTToken> GetTokenAsync(Student student);
+        JWTToken GetToken(LogInDto student);
     }
     public class JWTManagerService: IJWTManagerService
     {
@@ -32,9 +32,9 @@ namespace SicopataSchool.Services.Services
 
         }
         
-        public async Task<JWTToken> GetTokenAsync(Student student)
+        public JWTToken GetToken(LogInDto student)
         {
-            var verifyStudent =  await _uow.context.GetDbSet<Student>().Where(x => x.EnrollmentCode == student.EnrollmentCode).SingleOrDefaultAsync();
+            var verifyStudent =  _uow.context.GetDbSet<Student>().Where(x => x.EnrollmentCode == student.EnrollmentCode).SingleOrDefaultAsync();
             if (verifyStudent == null) { return null; }
 
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -46,6 +46,7 @@ namespace SicopataSchool.Services.Services
              new Claim(ClaimTypes.Name, student.EnrollmentCode)
               }),
                 Expires = DateTime.UtcNow.AddMinutes(10),
+                //RefreshToken = new ClaimsIdentity(new Claim[]
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(tokenKey), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);

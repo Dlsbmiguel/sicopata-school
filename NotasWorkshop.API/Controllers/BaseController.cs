@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 //using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OData.Query;
 using SicopataSchool.Core.BaseModel.BaseEntity;
 using SicopataSchool.Core.BaseModel.BaseEntityDto;
 using SicopataSchool.Services.Generic;
@@ -38,7 +40,7 @@ namespace SicopataSchool.Api.Controllers
         // [Audit(AuditActionType = AuditActionType.READ)]
         [HttpGet]
         //[OData]
-        //[EnableQuery]
+        [EnableQuery(PageSize =5)]
         public virtual IActionResult Get()
         {
             var list = _entityCRUDService.Get();

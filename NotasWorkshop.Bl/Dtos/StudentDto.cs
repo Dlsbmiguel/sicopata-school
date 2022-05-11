@@ -1,4 +1,5 @@
 ﻿using SicopataSchool.Core.BaseModel.BaseEntityDto;
+using SicopataSchool.Model.Entities;
 using System.Text.Json.Serialization;
 
 namespace SicopataSchool.Bl.Dtos
@@ -10,6 +11,7 @@ namespace SicopataSchool.Bl.Dtos
         [JsonIgnore]
         public override bool Deleted { get => base.Deleted; set => base.Deleted = value; }
    
-        public int EnrollmentCode { get; set; }
+        public string? EnrollmentCode { get; set; }
+        public virtual ICollection<Note> Notes { get; set; }
     }
 }

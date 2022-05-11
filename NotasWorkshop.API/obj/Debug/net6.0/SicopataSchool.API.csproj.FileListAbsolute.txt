@@ -73,3 +73,9 @@ C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.API\obj\Debug\
 C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.API\obj\Debug\net6.0\SicopataSchool.API.genruntimeconfig.cache
 C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.API\obj\Debug\net6.0\ref\SicopataSchool.API.dll
 C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\miguel.santos\source\repos\sicopata-school\NotasWorkshop.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\miguel.santos\source\repos\sicopata-school\NotasWorkshop.API\bin\Debug\net6.0\Microsoft.OData.Core.dll
+C:\Users\miguel.santos\source\repos\sicopata-school\NotasWorkshop.API\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+C:\Users\miguel.santos\source\repos\sicopata-school\NotasWorkshop.API\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+C:\Users\miguel.santos\source\repos\sicopata-school\NotasWorkshop.API\bin\Debug\net6.0\Microsoft.Spatial.dll
+C:\Users\miguel.santos\source\repos\sicopata-school\NotasWorkshop.API\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll

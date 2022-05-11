@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SicopataSchool.Api.Controllers;
 using SicopataSchool.Bl.Dtos;
@@ -8,6 +9,7 @@ using SicopataSchool.Services.Services;
 
 namespace SicopataSchool.API.Controllers
 {
+    //[Authorize]
     [ApiController]
     [Route("[controller]")]
     public class NotesController : BaseController<Note, NoteDto>
@@ -18,5 +20,6 @@ namespace SicopataSchool.API.Controllers
             : base(noteService, validationFactory, mapper)
         {
         }
+
     }
 }

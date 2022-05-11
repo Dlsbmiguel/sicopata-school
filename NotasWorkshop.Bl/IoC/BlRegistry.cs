@@ -8,6 +8,7 @@ namespace SicopataSchool.Bl.IoC
         public static void AddBlRegistry(this IServiceCollection services, Assembly[] assemblies)
         {
             services.AddAutoMapper(assemblies);
+           
         }
     }
 }
