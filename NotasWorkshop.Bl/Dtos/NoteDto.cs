@@ -7,6 +7,8 @@ namespace SicopataSchool.Bl.Dtos
     {
         //[JsonIgnore]
         public override int? Id { get => base.Id; set => base.Id = value; }
+        [JsonIgnore]
+        public override bool Deleted { get => base.Deleted; set => base.Deleted = value; }
         public string? Title { get; set; }
         public string? Content { get; set; }
         public string? ImageUrl { get; set; }

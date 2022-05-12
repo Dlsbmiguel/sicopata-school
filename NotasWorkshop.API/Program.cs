@@ -12,6 +12,7 @@ using SicopataSchool.Model.Entities;
 using SicopataSchool.Model.IoC;
 using SicopataSchool.Services.IoC;
 using System.Text;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,7 +45,7 @@ builder.Services.AddDbContext<SicopataSchoolDbContext>(op => op.UseSqlServer(myA
 builder.Services.AddControllers(options =>
 {
     options.EnableEndpointRouting = false;
-}).AddFluentValidation().AddOData(opt => opt.Expand().Select().Count().SetMaxTop(25).Filter().OrderBy());
+}).AddFluentValidation().AddOData(opt => opt.Expand().Select().Count().SetMaxTop(25).Filter().OrderBy()).AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles); ;
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

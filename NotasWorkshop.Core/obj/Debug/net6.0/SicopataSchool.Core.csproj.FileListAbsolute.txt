@@ -10,3 +10,15 @@ C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Core\obj\Debug
 C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\refint\SicopataSchool.Core.dll
 C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.pdb
 C:\Users\miguel.santos\Source\Repos\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\ref\SicopataSchool.Core.dll
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\bin\Debug\net6.0\SicopataSchool.Core.deps.json
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\bin\Debug\net6.0\SicopataSchool.Core.dll
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\bin\Debug\net6.0\SicopataSchool.Core.pdb
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.csproj.AssemblyReference.cache
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.AssemblyInfoInputs.cache
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.AssemblyInfo.cs
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.csproj.CoreCompileInputs.cache
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.dll
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\refint\SicopataSchool.Core.dll
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\SicopataSchool.Core.pdb
+C:\Users\migue\Source\Repos\Dlsbmiguel\sicopata-school\NotasWorkshop.Core\obj\Debug\net6.0\ref\SicopataSchool.Core.dll

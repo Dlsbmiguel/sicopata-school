@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj": {}
+    "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj": {
+    "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj",
         "projectName": "SicopataSchool.API",
-        "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj",
-        "packagesPath": "C:\\Users\\miguel.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.API\\obj\\",
+        "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.API\\SicopataSchool.API.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\miguel.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj": {
-                "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj"
+              "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj": {
+                "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj"
               }
             }
           }
@@ -77,21 +81,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj": {
+    "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj",
         "projectName": "SicopataSchool.Bl",
-        "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj",
-        "packagesPath": "C:\\Users\\miguel.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Bl\\obj\\",
+        "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Bl\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\miguel.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj": {
-                "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj"
+              "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj": {
+                "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj"
               }
             }
           }
@@ -161,21 +169,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj": {
+    "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
         "projectName": "SicopataSchool.Core",
-        "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
-        "packagesPath": "C:\\Users\\miguel.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Core\\obj\\",
+        "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\miguel.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -221,21 +233,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj": {
+    "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj",
         "projectName": "SicopataSchool.Model",
-        "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj",
-        "packagesPath": "C:\\Users\\miguel.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Model\\obj\\",
+        "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Model\\SicopataSchool.Model.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\miguel.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -249,8 +265,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj": {
-                "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj"
+              "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj": {
+                "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj"
               }
             }
           }
@@ -301,21 +317,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj": {
+    "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj",
         "projectName": "SicopataSchool.Services",
-        "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj",
-        "packagesPath": "C:\\Users\\miguel.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Services\\obj\\",
+        "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Services\\SicopataSchool.Services.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\miguel.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -329,8 +349,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj": {
-                "projectPath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj"
+              "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj": {
+                "projectPath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Bl\\SicopataSchool.Bl.csproj"
               }
             }
           }
@@ -359,7 +379,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TnhzIrG4NGM5BWcakFQFP+5LMpT99sbFF9zI9+SQA22YI0i8E8GCTEobQ5zp2BOYH06ASfaecrHpEqfx4ISpZw==",
+  "dgSpecHash": "Ayern9RnTuHDaPoHZOdJMwliQVknaqC2CmvkMhqcT5xjWC2MMtEfXsyvZByYb8NfkJXZZu2z74BjI3mgkf4Vsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miguel.santos\\source\\repos\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
+  "projectFilePath": "C:\\Users\\migue\\Source\\Repos\\Dlsbmiguel\\sicopata-school\\NotasWorkshop.Core\\SicopataSchool.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\miguel.santos\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.7\\microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
-    "C:\\Users\\miguel.santos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512"
+    "C:\\Users\\migue\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.7\\microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
+    "C:\\Users\\migue\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512"
   ],
   "logs": []
 }
